@@ -375,6 +375,8 @@ function Configurator(props) {
   const isTypescript = _.includes(selectedArray, 'Typescript')
 
   const projectname = getDefaultProjectName('empty-project', selectedArray)
+  console.log('Selected array: ', selectedArray);
+  console.log('Project name: ', projectname);
 
   const {
     featureConfig,
